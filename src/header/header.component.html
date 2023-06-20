@@ -1,0 +1,14 @@
+<nav >
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="app-logo">
+
+<ul *ngIf="isMenuReq">
+    <li><span>Welcome</span></li>
+    <li><a routerLink ="/home">Home</a></li>
+    <li ><a *ngIf="isAdminUser" routerLink ="/user">User</a></li>
+    <!-- <div class="spacer"></div> -->
+    
+  
+</ul>
+<a *ngIf="isMenuReq" class="login" routerLink ="/login">Logout</a>
+</nav>
+

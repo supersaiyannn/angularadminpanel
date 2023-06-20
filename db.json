@@ -1,0 +1,158 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "test user",
+      "password": "Test@1234",
+      "email": "admin@in.com",
+      "phone No": "8209889799",
+      "gender": "male",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "test2",
+      "name": "test2",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863076789",
+      "gender": "male",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "test3",
+      "name": "test3",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863976789",
+      "gender": "male",
+      "role": "staff",
+      "isActive": false
+    },
+    {
+      "id": "test4",
+      "name": "test4",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863076789",
+      "gender": "male",
+      "role": "tech",
+      "isActive": true
+    },
+    {
+      "id": "test5",
+      "name": "test5",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863076789",
+      "gender": "male",
+      "role": "tech",
+      "isActive": false
+    },
+    {
+      "id": "test6",
+      "name": "test6",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863076789",
+      "gender": "male",
+      "role": "tech",
+      "isActive": true
+    },
+    {
+      "id": "test7",
+      "name": "test7",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863076789",
+      "gender": "male",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "test9",
+      "name": "test9",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863076789",
+      "gender": "male",
+      "role": "tech",
+      "isActive": true
+    },
+    {
+      "id": "test11",
+      "name": "test11",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863376789",
+      "gender": "female",
+      "role": "tech",
+      "isActive": true
+    },
+    {
+      "id": "test12",
+      "name": "test12",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "8109779799",
+      "gender": "female",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "mayuri1",
+      "name": "mayur",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863376789",
+      "gender": "female",
+      "role": "user",
+      "isActive": false
+    },
+    {
+      "id": "akshay",
+      "name": "akshyay",
+      "password": "Test@1234",
+      "email": "Test@in.com",
+      "phone": "8809889799",
+      "gender": "male",
+      "role": "staff",
+      "isActive": true
+    },
+    {
+      "id": "ashish1",
+      "name": "ashish",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "7891135064",
+      "gender": "male",
+      "role": "tech",
+      "isActive": true
+    },
+    {
+      "id": "anna1",
+      "name": "anna",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "phone": "9863376789",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "tech",
+      "name": "Technician"
+    },
+    {
+      "code": "staff",
+      "name": "Staff"
+    }
+  ]
+}

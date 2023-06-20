@@ -1,0 +1,32 @@
+
+<mat-sidenav-container class="example-container" >
+    
+    <mat-sidenav #sidenav [mode]="mode.value || 'over'">
+       
+        <mat-icon class="icon" aria-hidden="false" aria-label="Example home icon" (click)="sidenav.toggle()" fontIcon="list"></mat-icon>
+      
+        <mat-radio-group class="example-radio-group" [formControl]="mode">
+           <ol>
+            <li> <a routerLink ="/OurWork"> Our-Work   </a></li>
+           <li> <a routerLink ="/ContactUs"> Contact-Us   </a></li>
+           
+           <li> <a routerLink ="/Testing"> Testing   </a></li>
+           </ol>
+        </mat-radio-group>
+      
+    </mat-sidenav>
+  
+    <mat-sidenav-content>
+
+        <mat-icon class="icon" aria-hidden="false" aria-label="Example home icon" (click)="sidenav.toggle()" fontIcon="list"></mat-icon>
+       <div style="text-align:center">
+            <h1>Welcome to Dashboard!</h1>
+        </div>
+     
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  
+  
+  
+  
+  
